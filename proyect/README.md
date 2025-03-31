@@ -142,7 +142,11 @@ Los coeficientes \( a, b, c \) se obtienen resolviendo el sistema con eliminaci�
 ✔ **Se generan gráficos de dispersión con las barras de error.**  
 ✔ **Se dibuja la recta o curva de regresión de manera animada.**  
 ✔ **Ejemplo de gráfico generado:**  
-📌 **(Imagen de la gráfica - Debes agregarla en tu repositorio)**  
+## Visualización de Resultados
+
+
+
+![Gráfico de Resultados](grafica%20lineal.png)
 
 ---
 
@@ -155,8 +159,8 @@ Si deseas contribuir con mejoras o reportar problemas:
 ---
 
 ## 📩 Contacto
-👤 **Tu Nombre**  
-📧 **tuemail@example.com**  
-🔗 [GitHub](https://github.com/tu-usuario)
+👤 **Diego Alejandro Molina Arteaga**  
+📧 **diegoa.molinaa@uqvirtual.edu.co**  
+🔗 [GitHub]((https://github.com/Diego2401join))
 
 ---
