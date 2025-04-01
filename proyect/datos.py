@@ -1,12 +1,13 @@
 # datos.py
 class DatosExperimentales:
-    def __init__(self, datos):
+    
+    def __init__(self, datos): #estado inicial de objeto 
         self._datos = datos
 
     def obtener_columna(self, indice):
         return [fila[indice] for fila in self._datos]
 
-# Datos manuales
+#Datos manuales
 datos_manuales = [
     [0.61350, 0.001291, 1.563667, 0.003512, 2.445053, 0.010983],
     [0.53100, 0.001155, 1.452000, 0.001000, 2.108304, 0.002904],

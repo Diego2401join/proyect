@@ -7,7 +7,7 @@ def tiempo_ejecucion(func):
         inicio = time.time()
         resultado = func(*args, **kwargs)
         fin = time.time()
-        print(f"Tiempo de ejecución de {func.__name__}: {fin - inicio:.5f} segundos")
+        print(f"Tiempo de ejecución de {func.__name__}: {fin - inicio:.16f} segundos")
         return resultado
     return wrapper
 

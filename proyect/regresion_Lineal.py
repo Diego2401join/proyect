@@ -1,23 +1,10 @@
 # regresion_lineal.py
 import math
 from time import time
+from regresion_base import RegresionBase, tiempo_ejecucion
 
-# Decorador para medir tiempo de ejecución
-def tiempo_ejecucion(func):
-    def wrapper(*args, **kwargs):
-        inicio = time()
-        resultado = func(*args, **kwargs)
-        fin = time()
-        print(f"Tiempo de ejecución de {func.__name__}: {fin - inicio:.5f} segundos")
-        return resultado
-    return wrapper
-
-class RegresionLineal:
-    def __init__(self, x, y, sigma):
-        self._x = x
-        self._y = y
-        self._sigma = sigma
-
+class RegresionLineal(RegresionBase):
+    
     @tiempo_ejecucion
     def calcular_parametros(self):
         sum_1_sigma2 = sum(1 / (s ** 2) for s in self._sigma)
